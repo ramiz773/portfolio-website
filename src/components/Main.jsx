@@ -8,6 +8,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import reactflixLogo from "../img/reactflix.png";
 import resume from "../utils/resume.pdf";
+import profilePic from "../img/pro-pic1.jpg";
 
 const Main = () => {
   return (
@@ -15,12 +16,11 @@ const Main = () => {
       <Navbar />
       <section id="hero" className="bg-charcoalGray px-[1.5rem] py-[3rem]">
         <div className="w-full md:max-w-[960px]  flex flex-col gap-3 mx-auto text-white justify-center items-center">
-          <div className="">
-            <img
-              src="https://www.gravatar.com/avatar/2c7d99fe281ecd3bcd65ab915bac6dd5?s=250"
-              className="rounded-full w-[128px]"
-            />
-          </div>
+          <img
+            src={profilePic}
+            className="rounded-full h-[128px] w-[128px] object-contain"
+          />
+
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-5xl font-normal leading-5 mt-6">
               Aleem Ramees
