@@ -22,7 +22,7 @@ const Main = () => {
           />
 
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-5xl font-normal leading-5 mt-6">
+            <h1 className="text-3xl md:text-5xl font-normal leading-5 mt-6">
               Aleem Ramees
             </h1>
             <p className="mt-4 text-xl">Full stack Developer</p>
@@ -42,7 +42,7 @@ const Main = () => {
 
       <section id="about" className="px-[1.5rem] py-[2.15rem]">
         <div className="w-full  md:max-w-[960px]  md:mx-auto  ">
-          <h1 className="text-3xl font-medium pb-4  text-gondola">About Me</h1>
+          <h1 className=" text-3xl font-medium pb-4  text-gondola">About Me</h1>
           <hr />
           <p className="mt-4">
             Hi! I’m Aleem Ramees, a full-stack developer who loves turning
@@ -123,7 +123,9 @@ const Main = () => {
 
       <section id="projects" className="projects py-[2.15rem] px-[1.5rem] ">
         <div className="w-full md:max-w-[960px] mx-auto">
-          <h1 className="text-3xl font-medium pb-4  text-gondola">Projects</h1>
+          <h1 className="  text-3xl font-medium pb-4  text-gondola">
+            Projects
+          </h1>
           <hr />
           <div className="m-5">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -142,7 +144,9 @@ const Main = () => {
                   <div className="p-4">
                     <h3 className="text-xl font-semibold flex  items-center justify-between">
                       Montac
-                      <span className="text-xs font-light">Devlopment</span>
+                      <span className="text-xs font-light">
+                        Currently in development
+                      </span>
                     </h3>
                     <p>e-commerce footware store</p>
                     <div className="tags flex  flex-wrap gap-3 items-center mt-3 text-darkGray text-xs ">
@@ -228,7 +232,7 @@ const Main = () => {
 
       <section id="contacts" className="py-[2.15rem] px-[1.5rem]">
         <div className=" container w-full md:max-w-[960px] mx-auto">
-          <h1 className="text-3xl font-medium pb-4  text-gondola">Contact</h1>
+          <h1 className=" text-3xl font-medium pb-4  text-gondola">Contact</h1>
           <hr />
           <div className="flex flex-col md:flex-row md:justify-center items-center space-y-6 md:space-y-0 md:space-x-14 pt-10 md:gap-x-14">
             <a

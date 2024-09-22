@@ -11,7 +11,7 @@ const Navbar = () => {
           <Link to="https://github.com/ramiz773">
             <FaGithub size={32} color="#ffff" />
           </Link>
-          <Link to="">
+          <Link to="https://www.linkedin.com/in/aleem-ramees-8a8827233/">
             <BsLinkedin size={32} color="#ffff" />
           </Link>
         </div>
