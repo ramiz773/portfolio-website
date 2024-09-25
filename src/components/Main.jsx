@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import reactflixLogo from "../img/reactflix.png";
 import resume from "../utils/resume.pdf";
-import profilePic from "../img/pro-pic1.jpg";
+import profilePic from "../img/pro-pic2.png";
 
 const Main = () => {
   return (
