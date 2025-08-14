@@ -1,14 +1,12 @@
-import React from "react";
 import Navbar from "./Navbar";
 import { FaFileAlt } from "react-icons/fa";
-import companyLogo from "../img/pied-piper-logo.png";
 import todoImg from "../img/todo.png";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import reactflixLogo from "../img/reactflix.png";
 import resume from "../utils/resume.pdf";
-import profilePic from "../img/pro-pic2.png";
+import profilePic from "../img/pro-pic3.jpg";
 
 const Main = () => {
   return (
@@ -26,19 +24,19 @@ const Main = () => {
               Aleem Ramees
             </h1>
             <p className="mt-4 text-xl">Full stack Developer</p>
-
             <a
-              href={resume}
+              // href={resume}
               className="flex gap-1 items-center mt-3 text-lg"
               target="blank"
-              download={resume}
-            >
-              <FaFileAlt />
+              // download={resume}
+              >
+              <FaFileAlt/>
               <span>Resume</span>
             </a>
           </div>
         </div>
       </section>
+              
 
       <section id="about" className="px-[1.5rem] py-[2.15rem]">
         <div className="w-full  md:max-w-[960px]  md:mx-auto  ">
@@ -131,7 +129,7 @@ const Main = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="card-1 bg-white shadow-md rounded-lg overflow-hidden">
                 <a
-                  href="https://github.com/ramiz773/e-commerce-store"
+                  href="https://e-commerce-store-c55d.onrender.com/"
                   target="blank"
                 >
                   <div className=" w-full h-48 flex justify-center items-center bg-[#172941]">
@@ -144,11 +142,8 @@ const Main = () => {
                   <div className="p-4">
                     <h3 className="text-xl font-semibold flex  items-center justify-between">
                       Montac
-                      <span className="text-xs font-light">
-                        Currently in development
-                      </span>
                     </h3>
-                    <p>e-commerce footware store</p>
+                    <p>e-commerce store</p>
                     <div className="tags flex  flex-wrap gap-3 items-center mt-3 text-darkGray text-xs ">
                       <span className="tag bg-whitesmoke p-2 rounded">
                         react.js
@@ -182,7 +177,7 @@ const Main = () => {
                     <h3 className="text-xl font-semibold flex justify-between items-center">
                       Reactflix
                     </h3>
-                    <p>A movie database web app</p>
+                    <p>A movie database</p>
 
                     <div className="tags flex  flex-wrap gap-3 items-center mt-3 text-darkGray text-xs ">
                       <span className="tag bg-whitesmoke p-2 rounded">
